@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    
+    th, td {
+      padding: 8px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    
+    th {
+      background-color: #fcc5c5;
+    }
+  </style>
+</head>
+<body>
+  <table id="professors-table">
+    <tr>
+      <th>Name</th>
+      <th>Ongoing Research</th>
+    </tr>
+  </table>
+
+  <script>
+    // Fetch the JSON data
+    fetch('professors.json')
+      .then(response => response.json())
+      .then(data => {
+        const table = document.getElementById('professors-table');
+        
+        // Iterate over the professors
+        data.forEach(professor => {
+          const row = table.insertRow();
+          const nameCell = row.insertCell();
+          const researchCell = row.insertCell();
+
+          // Set the name
+          nameCell.innerHTML = professor.name;
+
+          // Build the ongoing research HTML
+          const researchList = professor.ongoingResearch.map(research => {
+            return `<li><strong>${research.title}</strong> - ${research.description} (Status: ${research.status})</li>`;
+          }).join('');
+
+          researchCell.innerHTML = `<ul>${researchList}</ul>`;
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+</body>
+</html>

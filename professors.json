@@ -1,0 +1,71 @@
+[
+    {
+      "name": "John Smith",
+      "ongoingResearch": [
+        {
+          "id": 1,
+          "title": "Machine Learning for Image Recognition",
+          "description": "Exploring deep learning algorithms for image recognition",
+          "status": "In progress"
+        },
+        {
+          "id": 2,
+          "title": "Blockchain Technology and its Implications",
+          "description": "Investigating the impact of blockchain in various industries",
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "name": "Alice Johnson",
+      "ongoingResearch": [
+        {
+          "id": 1,
+          "title": "Natural Language Processing for Sentiment Analysis",
+          "description": "Developing models to analyze sentiment in text data",
+          "status": "In progress"
+        },
+        {
+          "id": 2,
+          "title": "Cybersecurity in IoT Devices",
+          "description": "Examining security vulnerabilities in Internet of Things devices",
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "name": "Michael Brown",
+      "ongoingResearch": [
+        {
+          "id": 1,
+          "title": "Data Privacy in Social Media",
+          "description": "Investigating privacy issues in social media platforms",
+          "status": "Ongoing"
+        },
+        {
+          "id": 2,
+          "title": "Artificial Intelligence in Healthcare",
+          "description": "Exploring AI applications for improving healthcare outcomes",
+          "status": "In progress"
+        }
+      ]
+    },
+    {
+      "name": "Emily Davis",
+      "ongoingResearch": [
+        {
+          "id": 1,
+          "title": "Machine Learning for Natural Language Processing",
+          "description": "Developing algorithms for NLP tasks using machine learning techniques",
+          "status": "In progress"
+        },
+        {
+          "id": 2,
+          "title": "Data Science in Marketing Analytics",
+          "description": "Applying data science methods to analyze marketing trends and customer behavior",
+          "status": "Ongoing"
+        }
+      ]
+    }
+  ]
+  

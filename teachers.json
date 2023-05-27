@@ -1,0 +1,142 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "John Smith",
+      "image":"image_data"         ,
+      "specialization": "Computer Science",
+      "degree": "Ph.D. in Computer Science",
+      "experience": "10+ years of teaching experience",
+      "email": "john.smith@example.com",
+      "researchPapers": [
+        {
+          "id": 1,
+          "title": "Advancements in Artificial Intelligence",
+          "publicationYear": 2022
+        },
+        {
+          "id": 2,
+          "title": "Big Data Analytics: Trends and Applications",
+          "publicationYear": 2021
+        }
+      ],
+      "ongoingResearch": [
+        {
+          "id": 1,
+          "title": "Machine Learning for Image Recognition",
+          "description": "Exploring deep learning algorithms for image recognition",
+          "status": "In progress"
+        },
+        {
+          "id": 2,
+          "title": "Blockchain Technology and its Implications",
+          "description": "Investigating the impact of blockchain in various industries",
+          "status": "Ongoing"
+        }
+      ],
+      "image_data": "<base64_encoded_image_data>"
+    },
+    {
+      "id": 2,
+      "name": "Emily Johnson",
+      "specialization": "Physics",
+      "degree": "Ph.D. in Physics",
+      "experience": "8+ years of teaching experience",
+      "email": "emily.johnson@example.com",
+      "researchPapers": [
+        {
+          "id": 3,
+          "title": "Quantum Mechanics: Exploring the Subatomic World",
+          "publicationYear": 2020
+        },
+        {
+          "id": 4,
+          "title": "Astrophysics and the Mysteries of the Universe",
+          "publicationYear": 2019
+        }
+      ],
+      "ongoingResearch": [
+        {
+          "id": 3,
+          "title": "Particle Physics and High-Energy Colliders",
+          "description": "Investigating subatomic particles and collider experiments",
+          "status": "In progress"
+        },
+        {
+          "id": 4,
+          "title": "Cosmology and the Nature of Dark Matter",
+          "description": "Studying the properties and existence of dark matter",
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Sarah Johnson",
+      "specialization": "Mathematics",
+      "degree": "Ph.D. in Mathematics",
+      "experience": "12+ years of teaching experience",
+      "email": "sarah.johnson@example.com",
+      "researchPapers": [
+        {
+          "id": 5,
+          "title": "Number Theory and Cryptography",
+          "publicationYear": 2021
+        },
+        {
+          "id": 6,
+          "title": "Graph Theory: Applications and Algorithms",
+          "publicationYear": 2020
+        }
+      ],
+      "ongoingResearch": [
+        {
+          "id": 5,
+          "title": "Discrete Mathematics and Combinatorial Optimization",
+          "description": "Exploring optimization problems in combinatorial mathematics",
+          "status": "In progress"
+        },
+        {
+          "id": 6,
+          "title": "Mathematical Modeling in Epidemiology",
+          "description": "Analyzing disease spread using mathematical models",
+          "status": "Ongoing"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Michael Davis",
+      "specialization": "Chemistry",
+      "degree": "Ph.D. in Chemistry",
+      "experience": "15+ years of teaching experience",
+      "email": "michael.davis@example.com",
+      "researchPapers": [
+        {
+          "id": 7,
+          "title": "Organic Synthesis: New Approaches and Reactions",
+          "publicationYear": 2019
+        },
+        {
+          "id": 8,
+          "title": "Materials Chemistry for Energy Applications",
+          "publicationYear": 2018
+        }
+      ],
+      "ongoingResearch": [
+        {
+          "id": 7,
+          "title": "Nanomaterials and their Applications in Catalysis",
+          "description": "Investigating the use of nanomaterials in catalytic reactions",
+          "status": "In progress"
+        },
+        {
+          "id": 8,
+          "title": "Analytical Techniques for Environmental Monitoring",
+          "description": "Developing new methods for monitoring pollutants in the environment",
+          "status": "Ongoing"
+        }
+      ]
+    }
+  ]
+}
